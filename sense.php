@@ -13,7 +13,7 @@ $ip=$str[0];
 $ip=($ip/1024.0)*330;
 
 //Send input for database entry
-$conn = mysqli_connect("fdb25.awardspace.net","2999155_otfiot","otfiot123","2999155_otfiot");
+$conn = mysqli_connect("<<Database Server URL>>","<<Database Username>>","<<Database Password>>","<<Database Name>>");
 
 $sql = "INSERT INTO data (temperature) VALUES ({$ip})";
 
