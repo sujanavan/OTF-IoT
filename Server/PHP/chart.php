@@ -16,7 +16,7 @@ function drawChart() {
 //check if request is empty
 
 //Send input for database entry
-$conn = mysqli_connect("fdb25.awardspace.net","2999155_otfiot","otfiot123","2999155_otfiot");
+$conn = mysqli_connect("<<Database Server URL>>","<<Database Username>>","<<Database Password>>","<<Database Name>>");
 
 $sql = "SELECT * FROM data";
 
